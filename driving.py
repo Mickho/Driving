@@ -11,3 +11,5 @@ elif country == "usa":
         print('You can driving', age)
     else:
         print('You can not driving', age)
+elif country != "taiwan" or "usa":
+    print("You need input taiwan or usa")
